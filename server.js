@@ -21,7 +21,7 @@ const botName = "ChatCord Bot";
 // Pass the server instance to Socket.io and configure CORS for Socket.io
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000", // Specify the allowed origin
+    origin: "https://room-chat.akashjayaraj.dev", // Specify the allowed origin
     methods: ["GET", "POST"], // Specify the allowed HTTP methods
   },
 });
